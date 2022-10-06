@@ -26,7 +26,7 @@ var robot_portrait = load("res://assets/robot_portrait.png");
 func _on_Area2D_body_entered(body):
   Dialogue.add("Player", "Hello, World!", player_portrait);
   Dialogue.add("Robot", "Hey! only robot say it.", robot_portrait);
-  Dialogue.add("Player", "But... I'm a algorithm", player_portrait);
+  Dialogue.add("Player", "But... I'm a algorithm...", player_portrait);
 
   Dialogue.play();
 ```
