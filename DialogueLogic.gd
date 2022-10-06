@@ -28,6 +28,7 @@ func stop():
 
 func update():
 	if index < len(queue):
+	  # if you edited DialogueStyle, don't forget to edit below ↓↓↓
 		$Container/Name.text = queue[index].name;
 		$Container/Text.text = queue[index].text;
 		$Container/Portrait.texture = queue[index].portrait;
@@ -39,6 +40,7 @@ func _ready():
 	player = get_parent().get_node("KinematicBody2D"); #example!
 
 func _input(event):
+	# edit input key here ↓↓↓
 	if event.is_action_pressed("ui_accept") and isDialoguing:
 		index += 1;
 		update();
