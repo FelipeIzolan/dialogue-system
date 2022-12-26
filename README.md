@@ -1,5 +1,5 @@
 # dialogue-system
- A simple ( and different ) dialogue system to Godot.
+ A simple dialogue system to Godot.
 
 ## Methods
 
